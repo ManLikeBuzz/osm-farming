@@ -1,7 +1,7 @@
 -- SCRIPT DEVELOPED BY OSMIUM | OSMFX | DISCORD.IO/OSMFX --
 
 QBCore = nil
-isLoggedIn = true
+isLoggedIn = false
 
 local menuOpen = false
 local wasOpen = false
@@ -570,7 +570,7 @@ function PickOrange()
 		end
     end
 
-	QBCore.Functions.Progressbar("search_register", "Starting Water Supply for the Field!", 15000, false, true, {
+	QBCore.Functions.Progressbar("search_register", "Picking Up oranges!", 15000, false, true, {
 		disableMovement = true,
 		disableCarMovement = true,
 		disableMouse = false,
